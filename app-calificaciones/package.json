@@ -1,0 +1,16 @@
+{
+  "name": "app-calificaciones",
+  "version": "1.0.0",
+  "description": "Una aplicación web sencilla para calcular el promedio de calificaciones de estudiantes.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "calificaciones",
+    "promedio",
+    "estudiantes"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}

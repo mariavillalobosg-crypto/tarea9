@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones de Estudiantes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ingreso de Calificaciones</h1>
+        <form id="calificacionesForm">
+            <label for="nombre">Nombre del Estudiante:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="matematicas">Calificación en Matemáticas:</label>
+            <input type="number" id="matematicas" required>
+
+            <label for="espanol">Calificación en Español:</label>
+            <input type="number" id="espanol" required>
+
+            <label for="ciencias">Calificación en Ciencias:</label>
+            <input type="number" id="ciencias" required>
+
+            <button type="submit">Calcular Promedio</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
